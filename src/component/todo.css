@@ -1,0 +1,43 @@
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-task {
+    margin-bottom: 20px;
+  }
+  
+  .statuses-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .status-column {
+    width: 200px;
+    padding: 10px;
+    background-color: #9a9494;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-height: 200px;
+  }
+  
+  .tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task {
+    padding: 10px;
+    background-color: #261111;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: grab;
+    text-align: center;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
